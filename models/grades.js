@@ -9,7 +9,7 @@ const gradeSchema = new mongoose.Schema({
   scores: [{ score_type: String, score: Number }],
 });
 
-export default mongoose.model("Grade", gradeSchema);
+export default mongoose.model("grades", gradeSchema);
 
 //===========================================================================================
 
